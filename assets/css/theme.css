@@ -925,6 +925,8 @@ img {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .article-featured-image {
