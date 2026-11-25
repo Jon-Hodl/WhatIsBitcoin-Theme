@@ -1,6 +1,7 @@
 <section class="hero" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <h1><?php esc_html_e( 'What is', 'whatisbitcoin' ); ?> <span>Bitcoin</span>?</h1>
-    <p class="hero p" style="margin-bottom: 2.5rem;"><?php esc_html_e( 'The open-source money for the digital age. No banks. No borders. Just you and your wealth.', 'whatisbitcoin' ); ?></p>
+    <p class="hero p" style="margin-bottom: 0.5rem;"><?php esc_html_e( 'Bitcoin is digital money you send and receive without middlemen.', 'whatisbitcoin' ); ?></p>
+    <p class="hero p" style="margin-bottom: 2.5rem;"><?php esc_html_e( 'No banks, governments, or corporations. Just you and your money.', 'whatisbitcoin' ); ?></p>
 
     <form class="search-wrapper" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
