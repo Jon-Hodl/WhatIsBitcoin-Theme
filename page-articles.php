@@ -34,7 +34,7 @@ get_header();
                 <article class="article-card">
                     <a href="<?php the_permalink(); ?>" class="article-thumb" aria-hidden="true" tabindex="-1">
                         <?php if ( has_post_thumbnail() ) : ?>
-                            <?php the_post_thumbnail( 'medium_large', array( 'alt' => get_the_title() ) ); ?>
+                            <?php the_post_thumbnail( 'large', array( 'alt' => get_the_title() ) ); ?>
                         <?php else : ?>
                             <div class="article-thumb-placeholder">
                                 <span><?php esc_html_e( 'What Is Bitcoin?', 'whatisbitcoin' ); ?></span>
