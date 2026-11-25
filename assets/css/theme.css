@@ -707,12 +707,17 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.4rem;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto 2rem;
     padding: 0.75rem 1rem;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
     z-index: 90;
+}
+
+#glossary-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .alphabet-nav a {
