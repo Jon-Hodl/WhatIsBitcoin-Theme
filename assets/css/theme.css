@@ -1006,3 +1006,70 @@ img {
         font-size: 1.75rem;
     }
 }
+
+/* Generic page template */
+.page-content {
+    padding: 4rem 1.5rem;
+}
+
+.page-body {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2.5rem;
+}
+
+.page-featured-image {
+    margin: -2.5rem -2.5rem 2rem;
+    border-radius: var(--radius) var(--radius) 0 0;
+    overflow: hidden;
+}
+
+.page-featured-image img {
+    width: 100%;
+    display: block;
+}
+
+.page-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin: 0 0 1.5rem;
+}
+
+.page-body-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.page-body-content p,
+.page-body-content ul,
+.page-body-content ol {
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+.page-body-content h2,
+.page-body-content h3,
+.page-body-content h4 {
+    color: var(--text);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.page-body-content a {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .page-body {
+        padding: 1.5rem;
+    }
+
+    .page-featured-image {
+        margin: -1.5rem -1.5rem 1.5rem;
+    }
+
+    .page-title {
+        font-size: 1.75rem;
+    }
+}
